@@ -3,7 +3,7 @@
 A production-grade, RAG-based data observability tool that summarizes ETL pipeline logs, detects anomalies, and answers natural language queries using OpenAI GPT and ChromaDB.
 
 ## 🚀 Live Demo
-Coming soon — deploying on Streamlit Cloud
+👉 https://pipeline-observability.streamlit.app
 
 ## ✨ Features
 - 🔍 Natural language querying — ask "which pipelines failed?" in plain English
