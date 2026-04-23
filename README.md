@@ -1,11 +1,19 @@
 # 🔭 LLM-Powered Pipeline Observability Tool
 
-A production-grade, RAG-based data observability tool that summarizes ETL pipeline logs, detects anomalies, and answers natural language queries using OpenAI GPT and ChromaDB.
+A production-grade, end-to-end data observability platform that automatically ingests ETL pipeline logs via Apache Airflow, stores them as vector embeddings in ChromaDB, and enables natural language querying and anomaly detection using OpenAI GPT.
 
 ## 🚀 Live Demo
 👉 https://pipeline-observability.streamlit.app
 
+## 🏗️ Architecture
+Airflow DAG (runs every hour)
+→ Generates new pipeline logs automatically
+→ Stores in ChromaDB as vector embeddings
+→ Streamlit Dashboard queries with OpenAI GPT
+→ Real-time anomaly detection and plain-English summaries
+
 ## ✨ Features
+- ⏰ Automated log ingestion via Apache Airflow DAGs running every hour
 - 🔍 Natural language querying — ask "which pipelines failed?" in plain English
 - 🤖 AI-powered summaries — root cause analysis using OpenAI GPT-3.5
 - 💬 Conversational chat — ask follow-up questions with memory
@@ -18,11 +26,13 @@ A production-grade, RAG-based data observability tool that summarizes ETL pipeli
 
 ## 🛠️ Tech Stack
 - Python — Core language
+- Apache Airflow — Automated hourly pipeline log ingestion (DAG orchestration)
 - ChromaDB — Vector database for semantic log search
 - LangChain — RAG pipeline orchestration
-- OpenAI GPT-3.5 — Natural language summarization
+- OpenAI GPT-3.5 — Natural language summarization and root cause analysis
 - Streamlit — Interactive web dashboard
 - Plotly — Interactive charts and visualizations
+- Docker — Containerized Airflow deployment
 
 ## 📁 Project Structure
 - app.py — Main Streamlit dashboard
@@ -32,7 +42,11 @@ A production-grade, RAG-based data observability tool that summarizes ETL pipeli
 - summarize.py — OpenAI-powered summarization
 - logs.json — Generated pipeline logs
 - sample_logs.json — Sample logs for testing upload feature
-- .env — API keys (not committed)
+- requirements.txt — Python dependencies
+- airflow/
+  - Dockerfile — Custom Airflow image with ChromaDB
+  - docker-compose.yml — Airflow container setup
+  - dags/pipeline_log_dag.py — Hourly log ingestion DAG
 
 ## ⚙️ Setup Instructions
 
@@ -54,19 +68,36 @@ Step 5 — Generate logs and store in ChromaDB
 python generate_logs.py
 python store_logs.py
 
-Step 6 — Run the app
+Step 6 — Run the Streamlit app
 streamlit run app.py
 
+Step 7 — Start Airflow (requires Docker Desktop)
+cd airflow
+docker-compose up -d
+
+Step 8 — Access Airflow dashboard
+Go to http://localhost:8080
+Username: admin
+Enable the pipeline_log_ingestion DAG
+
 ## 💡 How It Works
-1. ETL pipeline logs are embedded as vectors and stored in ChromaDB
-2. User asks a question in plain English
-3. ChromaDB retrieves the most semantically relevant logs using vector similarity search
-4. OpenAI GPT summarizes findings with root cause analysis and recommendations
-5. Anomaly detection automatically flags high failure rates and recurring errors
+1. Apache Airflow runs the pipeline_log_ingestion DAG every hour automatically
+2. The DAG generates 10 new realistic ETL pipeline logs
+3. Logs are embedded as vectors and stored in ChromaDB
+4. User asks a question in plain English on the Streamlit dashboard
+5. ChromaDB retrieves the most semantically relevant logs
+6. OpenAI GPT summarizes findings with root cause analysis and recommendations
+7. Anomaly detection automatically flags high failure rates and recurring errors
 
 ## 🎯 Use Cases
-- Monitor ETL pipeline health across multiple pipelines
+- Monitor ETL pipeline health across multiple pipelines in real-time
 - Quickly identify recurring errors and their root causes
 - Get plain-English summaries instead of reading raw logs
 - Detect anomalies before they become critical issues
+- Simulate production-grade data observability like Monte Carlo or DataDog
 
+## 👩‍💻 Author
+Krishna Kaveri T
+- LinkedIn: linkedin.com/in/krishna-kaveri-t-833a1120a
+- Email: krishnakaverit@gmail.com
+- GitHub: github.com/krishnakaverit

@@ -1,0 +1,16 @@
+services:
+  airflow:
+    build: .
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ../chroma_db:/opt/airflow/chroma_db
+      - ../logs.json:/opt/airflow/logs.json
+    ports:
+      - "8080:8080"
+    command: standalone

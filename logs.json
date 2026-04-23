@@ -898,5 +898,185 @@
     "duration_seconds": 509,
     "error": null,
     "rows_processed": 40234
+  },
+  {
+    "id": 101,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 273,
+    "error": null,
+    "rows_processed": 27033
+  },
+  {
+    "id": 102,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 217,
+    "error": null,
+    "rows_processed": 5611
+  },
+  {
+    "id": 103,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 229,
+    "error": null,
+    "rows_processed": 7851
+  },
+  {
+    "id": 104,
+    "pipeline": "customer_etl",
+    "status": "warning",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 478,
+    "error": null,
+    "rows_processed": 25539
+  },
+  {
+    "id": 105,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 581,
+    "error": null,
+    "rows_processed": 9254
+  },
+  {
+    "id": 106,
+    "pipeline": "sales_report",
+    "status": "warning",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 232,
+    "error": null,
+    "rows_processed": 1820
+  },
+  {
+    "id": 107,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 170,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 108,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 183,
+    "error": "FileNotFoundError: source file missing",
+    "rows_processed": 0
+  },
+  {
+    "id": 109,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 224,
+    "error": null,
+    "rows_processed": 27190
+  },
+  {
+    "id": 110,
+    "pipeline": "payment_reconciliation",
+    "status": "warning",
+    "timestamp": "2026-04-23 23:32:13",
+    "duration_seconds": 132,
+    "error": null,
+    "rows_processed": 16406
+  },
+  {
+    "id": 111,
+    "pipeline": "customer_etl",
+    "status": "warning",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 18,
+    "error": null,
+    "rows_processed": 18582
+  },
+  {
+    "id": 112,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 34,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 113,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 240,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 114,
+    "pipeline": "payment_reconciliation",
+    "status": "failed",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 533,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 115,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 484,
+    "error": null,
+    "rows_processed": 26232
+  },
+  {
+    "id": 116,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 568,
+    "error": null,
+    "rows_processed": 1696
+  },
+  {
+    "id": 117,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 225,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 118,
+    "pipeline": "inventory_sync",
+    "status": "warning",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 309,
+    "error": null,
+    "rows_processed": 23209
+  },
+  {
+    "id": 119,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 144,
+    "error": null,
+    "rows_processed": 18322
+  },
+  {
+    "id": 120,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-23 23:32:15",
+    "duration_seconds": 47,
+    "error": null,
+    "rows_processed": 24261
   }
 ]
