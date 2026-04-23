@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-22 01:52:26",
+    "duration_seconds": 108,
+    "error": null,
+    "rows_processed": 6415
+  },
+  {
+    "id": 2,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-23 11:52:26",
+    "duration_seconds": 547,
+    "error": null,
+    "rows_processed": 42211
+  },
+  {
+    "id": 3,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-21 01:52:26",
+    "duration_seconds": 69,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 4,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-22 02:52:26",
+    "duration_seconds": 493,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 5,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-21 18:52:26",
+    "duration_seconds": 35,
+    "error": null,
+    "rows_processed": 47726
+  },
+  {
+    "id": 6,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-21 17:52:26",
+    "duration_seconds": 380,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 7,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-20 17:52:26",
+    "duration_seconds": 561,
+    "error": "MemoryError: out of memory during transform",
+    "rows_processed": 0
+  },
+  {
+    "id": 8,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-21 17:52:26",
+    "duration_seconds": 214,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 9,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-21 22:52:26",
+    "duration_seconds": 111,
+    "error": null,
+    "rows_processed": 27889
+  },
+  {
+    "id": 10,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-22 09:52:26",
+    "duration_seconds": 531,
+    "error": null,
+    "rows_processed": 15456
+  },
+  {
+    "id": 11,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-22 01:52:26",
+    "duration_seconds": 95,
+    "error": null,
+    "rows_processed": 5198
+  },
+  {
+    "id": 12,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-22 10:52:26",
+    "duration_seconds": 114,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 13,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-21 05:52:26",
+    "duration_seconds": 345,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 14,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-22 08:52:26",
+    "duration_seconds": 13,
+    "error": null,
+    "rows_processed": 41152
+  },
+  {
+    "id": 15,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-21 11:52:26",
+    "duration_seconds": 468,
+    "error": null,
+    "rows_processed": 31479
+  },
+  {
+    "id": 16,
+    "pipeline": "payment_reconciliation",
+    "status": "warning",
+    "timestamp": "2026-04-22 13:52:26",
+    "duration_seconds": 297,
+    "error": null,
+    "rows_processed": 38801
+  },
+  {
+    "id": 17,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-21 07:52:26",
+    "duration_seconds": 158,
+    "error": null,
+    "rows_processed": 48357
+  },
+  {
+    "id": 18,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-23 05:52:26",
+    "duration_seconds": 169,
+    "error": null,
+    "rows_processed": 9190
+  },
+  {
+    "id": 19,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-22 21:52:26",
+    "duration_seconds": 227,
+    "error": null,
+    "rows_processed": 28844
+  },
+  {
+    "id": 20,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-21 09:52:26",
+    "duration_seconds": 311,
+    "error": null,
+    "rows_processed": 8011
+  },
+  {
+    "id": 21,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-20 14:52:26",
+    "duration_seconds": 553,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 22,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-21 21:52:26",
+    "duration_seconds": 17,
+    "error": null,
+    "rows_processed": 40593
+  },
+  {
+    "id": 23,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-22 00:52:26",
+    "duration_seconds": 31,
+    "error": null,
+    "rows_processed": 12022
+  },
+  {
+    "id": 24,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-22 17:52:26",
+    "duration_seconds": 206,
+    "error": null,
+    "rows_processed": 42021
+  },
+  {
+    "id": 25,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-20 13:52:26",
+    "duration_seconds": 509,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 26,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-20 13:52:26",
+    "duration_seconds": 230,
+    "error": "FileNotFoundError: source file missing",
+    "rows_processed": 0
+  },
+  {
+    "id": 27,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-21 10:52:26",
+    "duration_seconds": 138,
+    "error": "FileNotFoundError: source file missing",
+    "rows_processed": 0
+  },
+  {
+    "id": 28,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-23 00:52:26",
+    "duration_seconds": 44,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 29,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-22 09:52:26",
+    "duration_seconds": 595,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 30,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-23 12:52:26",
+    "duration_seconds": 439,
+    "error": null,
+    "rows_processed": 34515
+  },
+  {
+    "id": 31,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-23 08:52:26",
+    "duration_seconds": 600,
+    "error": null,
+    "rows_processed": 7113
+  },
+  {
+    "id": 32,
+    "pipeline": "payment_reconciliation",
+    "status": "warning",
+    "timestamp": "2026-04-21 17:52:26",
+    "duration_seconds": 571,
+    "error": null,
+    "rows_processed": 12570
+  },
+  {
+    "id": 33,
+    "pipeline": "user_analytics",
+    "status": "warning",
+    "timestamp": "2026-04-21 19:52:26",
+    "duration_seconds": 407,
+    "error": null,
+    "rows_processed": 28475
+  },
+  {
+    "id": 34,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-22 15:52:26",
+    "duration_seconds": 553,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 35,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-23 03:52:26",
+    "duration_seconds": 434,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 36,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-22 09:52:26",
+    "duration_seconds": 161,
+    "error": null,
+    "rows_processed": 15934
+  },
+  {
+    "id": 37,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-22 00:52:26",
+    "duration_seconds": 510,
+    "error": null,
+    "rows_processed": 43210
+  },
+  {
+    "id": 38,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-20 20:52:26",
+    "duration_seconds": 494,
+    "error": null,
+    "rows_processed": 1658
+  },
+  {
+    "id": 39,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-21 10:52:26",
+    "duration_seconds": 282,
+    "error": null,
+    "rows_processed": 34402
+  },
+  {
+    "id": 40,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-21 04:52:26",
+    "duration_seconds": 573,
+    "error": "MemoryError: out of memory during transform",
+    "rows_processed": 0
+  },
+  {
+    "id": 41,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-20 22:52:26",
+    "duration_seconds": 569,
+    "error": "MemoryError: out of memory during transform",
+    "rows_processed": 0
+  },
+  {
+    "id": 42,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-20 15:52:26",
+    "duration_seconds": 147,
+    "error": "FileNotFoundError: source file missing",
+    "rows_processed": 0
+  },
+  {
+    "id": 43,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-22 05:52:26",
+    "duration_seconds": 267,
+    "error": null,
+    "rows_processed": 22707
+  },
+  {
+    "id": 44,
+    "pipeline": "user_analytics",
+    "status": "warning",
+    "timestamp": "2026-04-21 22:52:26",
+    "duration_seconds": 496,
+    "error": null,
+    "rows_processed": 21529
+  },
+  {
+    "id": 45,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-21 08:52:26",
+    "duration_seconds": 124,
+    "error": null,
+    "rows_processed": 41968
+  },
+  {
+    "id": 46,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-23 05:52:26",
+    "duration_seconds": 376,
+    "error": null,
+    "rows_processed": 1726
+  },
+  {
+    "id": 47,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-21 14:52:26",
+    "duration_seconds": 505,
+    "error": null,
+    "rows_processed": 24954
+  },
+  {
+    "id": 48,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-22 14:52:26",
+    "duration_seconds": 384,
+    "error": null,
+    "rows_processed": 21116
+  },
+  {
+    "id": 49,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-22 05:52:26",
+    "duration_seconds": 127,
+    "error": null,
+    "rows_processed": 5394
+  },
+  {
+    "id": 50,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-21 07:52:26",
+    "duration_seconds": 209,
+    "error": null,
+    "rows_processed": 27052
+  },
+  {
+    "id": 51,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-21 17:52:26",
+    "duration_seconds": 99,
+    "error": null,
+    "rows_processed": 48477
+  },
+  {
+    "id": 52,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-22 06:52:26",
+    "duration_seconds": 468,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 53,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-21 03:52:26",
+    "duration_seconds": 591,
+    "error": null,
+    "rows_processed": 18553
+  },
+  {
+    "id": 54,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-21 08:52:26",
+    "duration_seconds": 524,
+    "error": null,
+    "rows_processed": 15110
+  },
+  {
+    "id": 55,
+    "pipeline": "user_analytics",
+    "status": "warning",
+    "timestamp": "2026-04-22 12:52:26",
+    "duration_seconds": 415,
+    "error": null,
+    "rows_processed": 43991
+  },
+  {
+    "id": 56,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-22 18:52:26",
+    "duration_seconds": 397,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 57,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-22 18:52:26",
+    "duration_seconds": 331,
+    "error": "MemoryError: out of memory during transform",
+    "rows_processed": 0
+  },
+  {
+    "id": 58,
+    "pipeline": "user_analytics",
+    "status": "warning",
+    "timestamp": "2026-04-22 03:52:26",
+    "duration_seconds": 412,
+    "error": null,
+    "rows_processed": 11709
+  },
+  {
+    "id": 59,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-21 08:52:26",
+    "duration_seconds": 479,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 60,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-22 08:52:26",
+    "duration_seconds": 505,
+    "error": null,
+    "rows_processed": 12102
+  },
+  {
+    "id": 61,
+    "pipeline": "payment_reconciliation",
+    "status": "warning",
+    "timestamp": "2026-04-22 09:52:26",
+    "duration_seconds": 139,
+    "error": null,
+    "rows_processed": 35579
+  },
+  {
+    "id": 62,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-22 20:52:26",
+    "duration_seconds": 555,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 63,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-22 21:52:26",
+    "duration_seconds": 318,
+    "error": "MemoryError: out of memory during transform",
+    "rows_processed": 0
+  },
+  {
+    "id": 64,
+    "pipeline": "payment_reconciliation",
+    "status": "failed",
+    "timestamp": "2026-04-20 18:52:26",
+    "duration_seconds": 68,
+    "error": "MemoryError: out of memory during transform",
+    "rows_processed": 0
+  },
+  {
+    "id": 65,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-21 05:52:26",
+    "duration_seconds": 128,
+    "error": null,
+    "rows_processed": 25237
+  },
+  {
+    "id": 66,
+    "pipeline": "payment_reconciliation",
+    "status": "warning",
+    "timestamp": "2026-04-22 22:52:26",
+    "duration_seconds": 115,
+    "error": null,
+    "rows_processed": 8841
+  },
+  {
+    "id": 67,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-23 03:52:26",
+    "duration_seconds": 509,
+    "error": "FileNotFoundError: source file missing",
+    "rows_processed": 0
+  },
+  {
+    "id": 68,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-20 15:52:26",
+    "duration_seconds": 406,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 69,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-21 14:52:26",
+    "duration_seconds": 71,
+    "error": null,
+    "rows_processed": 32038
+  },
+  {
+    "id": 70,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-20 13:52:26",
+    "duration_seconds": 556,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 71,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-21 01:52:26",
+    "duration_seconds": 311,
+    "error": null,
+    "rows_processed": 196
+  },
+  {
+    "id": 72,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-21 07:52:26",
+    "duration_seconds": 425,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 73,
+    "pipeline": "sales_report",
+    "status": "warning",
+    "timestamp": "2026-04-23 00:52:26",
+    "duration_seconds": 226,
+    "error": null,
+    "rows_processed": 7644
+  },
+  {
+    "id": 74,
+    "pipeline": "customer_etl",
+    "status": "warning",
+    "timestamp": "2026-04-22 09:52:26",
+    "duration_seconds": 353,
+    "error": null,
+    "rows_processed": 24453
+  },
+  {
+    "id": 75,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-22 08:52:26",
+    "duration_seconds": 580,
+    "error": null,
+    "rows_processed": 5550
+  },
+  {
+    "id": 76,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-20 14:52:26",
+    "duration_seconds": 228,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 77,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-21 17:52:26",
+    "duration_seconds": 548,
+    "error": null,
+    "rows_processed": 48430
+  },
+  {
+    "id": 78,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-22 19:52:26",
+    "duration_seconds": 362,
+    "error": null,
+    "rows_processed": 10120
+  },
+  {
+    "id": 79,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-22 21:52:26",
+    "duration_seconds": 94,
+    "error": null,
+    "rows_processed": 31892
+  },
+  {
+    "id": 80,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-20 20:52:26",
+    "duration_seconds": 450,
+    "error": null,
+    "rows_processed": 33895
+  },
+  {
+    "id": 81,
+    "pipeline": "inventory_sync",
+    "status": "success",
+    "timestamp": "2026-04-20 18:52:26",
+    "duration_seconds": 206,
+    "error": null,
+    "rows_processed": 37744
+  },
+  {
+    "id": 82,
+    "pipeline": "user_analytics",
+    "status": "success",
+    "timestamp": "2026-04-22 22:52:26",
+    "duration_seconds": 429,
+    "error": null,
+    "rows_processed": 36109
+  },
+  {
+    "id": 83,
+    "pipeline": "sales_report",
+    "status": "failed",
+    "timestamp": "2026-04-21 08:52:26",
+    "duration_seconds": 542,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 84,
+    "pipeline": "inventory_sync",
+    "status": "warning",
+    "timestamp": "2026-04-21 20:52:26",
+    "duration_seconds": 422,
+    "error": null,
+    "rows_processed": 6900
+  },
+  {
+    "id": 85,
+    "pipeline": "inventory_sync",
+    "status": "failed",
+    "timestamp": "2026-04-22 18:52:26",
+    "duration_seconds": 507,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 86,
+    "pipeline": "payment_reconciliation",
+    "status": "failed",
+    "timestamp": "2026-04-22 08:52:26",
+    "duration_seconds": 161,
+    "error": "TimeoutError: connection timed out after 30s",
+    "rows_processed": 0
+  },
+  {
+    "id": 87,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-20 14:52:26",
+    "duration_seconds": 582,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 88,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-23 00:52:26",
+    "duration_seconds": 564,
+    "error": null,
+    "rows_processed": 31486
+  },
+  {
+    "id": 89,
+    "pipeline": "payment_reconciliation",
+    "status": "success",
+    "timestamp": "2026-04-23 01:52:26",
+    "duration_seconds": 382,
+    "error": null,
+    "rows_processed": 21654
+  },
+  {
+    "id": 90,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-23 07:52:26",
+    "duration_seconds": 487,
+    "error": null,
+    "rows_processed": 18582
+  },
+  {
+    "id": 91,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-22 10:52:26",
+    "duration_seconds": 219,
+    "error": "FileNotFoundError: source file missing",
+    "rows_processed": 0
+  },
+  {
+    "id": 92,
+    "pipeline": "payment_reconciliation",
+    "status": "failed",
+    "timestamp": "2026-04-21 14:52:26",
+    "duration_seconds": 18,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 93,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-22 12:52:26",
+    "duration_seconds": 122,
+    "error": null,
+    "rows_processed": 9653
+  },
+  {
+    "id": 94,
+    "pipeline": "customer_etl",
+    "status": "warning",
+    "timestamp": "2026-04-21 08:52:26",
+    "duration_seconds": 348,
+    "error": null,
+    "rows_processed": 20788
+  },
+  {
+    "id": 95,
+    "pipeline": "sales_report",
+    "status": "success",
+    "timestamp": "2026-04-23 09:52:26",
+    "duration_seconds": 457,
+    "error": null,
+    "rows_processed": 45391
+  },
+  {
+    "id": 96,
+    "pipeline": "customer_etl",
+    "status": "success",
+    "timestamp": "2026-04-22 00:52:26",
+    "duration_seconds": 185,
+    "error": null,
+    "rows_processed": 48592
+  },
+  {
+    "id": 97,
+    "pipeline": "customer_etl",
+    "status": "failed",
+    "timestamp": "2026-04-22 09:52:26",
+    "duration_seconds": 340,
+    "error": "DatabaseError: could not connect to postgres",
+    "rows_processed": 0
+  },
+  {
+    "id": 98,
+    "pipeline": "user_analytics",
+    "status": "failed",
+    "timestamp": "2026-04-23 06:52:26",
+    "duration_seconds": 365,
+    "error": "ValueError: null values found in required column",
+    "rows_processed": 0
+  },
+  {
+    "id": 99,
+    "pipeline": "payment_reconciliation",
+    "status": "warning",
+    "timestamp": "2026-04-21 17:52:26",
+    "duration_seconds": 148,
+    "error": null,
+    "rows_processed": 41648
+  },
+  {
+    "id": 100,
+    "pipeline": "customer_etl",
+    "status": "warning",
+    "timestamp": "2026-04-22 10:52:26",
+    "duration_seconds": 509,
+    "error": null,
+    "rows_processed": 40234
+  }
+]
