@@ -1,0 +1,17 @@
+[
+  {"id": 1, "pipeline": "orders_etl", "status": "failed", "timestamp": "2026-04-23 08:00:00", "duration_seconds": 45, "error": "DatabaseError: could not connect to MySQL", "rows_processed": 0},
+  {"id": 2, "pipeline": "orders_etl", "status": "failed", "timestamp": "2026-04-22 08:00:00", "duration_seconds": 52, "error": "DatabaseError: could not connect to MySQL", "rows_processed": 0},
+  {"id": 3, "pipeline": "orders_etl", "status": "success", "timestamp": "2026-04-21 08:00:00", "duration_seconds": 120, "error": null, "rows_processed": 15000},
+  {"id": 4, "pipeline": "product_sync", "status": "success", "timestamp": "2026-04-23 09:00:00", "duration_seconds": 200, "error": null, "rows_processed": 32000},
+  {"id": 5, "pipeline": "product_sync", "status": "warning", "timestamp": "2026-04-22 09:00:00", "duration_seconds": 310, "error": null, "rows_processed": 28000},
+  {"id": 6, "pipeline": "product_sync", "status": "failed", "timestamp": "2026-04-21 09:00:00", "duration_seconds": 30, "error": "TimeoutError: S3 bucket unreachable", "rows_processed": 0},
+  {"id": 7, "pipeline": "revenue_report", "status": "success", "timestamp": "2026-04-23 10:00:00", "duration_seconds": 89, "error": null, "rows_processed": 5000},
+  {"id": 8, "pipeline": "revenue_report", "status": "success", "timestamp": "2026-04-22 10:00:00", "duration_seconds": 95, "error": null, "rows_processed": 4800},
+  {"id": 9, "pipeline": "revenue_report", "status": "success", "timestamp": "2026-04-21 10:00:00", "duration_seconds": 78, "error": null, "rows_processed": 5200},
+  {"id": 10, "pipeline": "user_events", "status": "failed", "timestamp": "2026-04-23 11:00:00", "duration_seconds": 15, "error": "MemoryError: out of memory during transform", "rows_processed": 0},
+  {"id": 11, "pipeline": "user_events", "status": "failed", "timestamp": "2026-04-22 11:00:00", "duration_seconds": 18, "error": "MemoryError: out of memory during transform", "rows_processed": 0},
+  {"id": 12, "pipeline": "user_events", "status": "failed", "timestamp": "2026-04-21 11:00:00", "duration_seconds": 12, "error": "MemoryError: out of memory during transform", "rows_processed": 0},
+  {"id": 13, "pipeline": "inventory_load", "status": "success", "timestamp": "2026-04-23 12:00:00", "duration_seconds": 400, "error": null, "rows_processed": 75000},
+  {"id": 14, "pipeline": "inventory_load", "status": "warning", "timestamp": "2026-04-22 12:00:00", "duration_seconds": 450, "error": null, "rows_processed": 68000},
+  {"id": 15, "pipeline": "inventory_load", "status": "success", "timestamp": "2026-04-21 12:00:00", "duration_seconds": 380, "error": null, "rows_processed": 72000}
+]
